@@ -20,6 +20,7 @@
 bool RMGExceptionHandler::Notify(const char* originOfException, const char* exceptionCode,
     G4ExceptionSeverity severity, const char* description) {
 
+  
   if (severity == JustWarning) {
     fHadWarning = true;
   } else {
